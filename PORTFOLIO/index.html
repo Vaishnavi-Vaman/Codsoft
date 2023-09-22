@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> personal portofolio website</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/b337dd10ad.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/LOGO2.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">home</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#services">services</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i> <!-------times icon------->
+                </ul>
+                <i class="fa-solid fa-bars"  onclick="openmenu()"></i>  <!--   menu    icon-->
+            </nav>
+            <div class="header-text">
+                <p>web developer</p>
+                <h1>
+                    Hi,Im <span>Vaishnavi</span> <br>
+                </h1>
+            </div>
+        </div>
+    </div>
+    <!-------------------About------------------------>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/me2.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        <BR>
+                        <P>Front End Developer!</P>
+                        <BR>
+                        I am a front-end developer specializing in creating
+                        dynamic web projects using HTML, CSS, and JavaScript.
+                         With a passion for crafting visually appealing and user-centric experiences,
+                         I transform ideas into functional and engaging websites.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">skills</p>
+                        <p class="tab-links"  onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links"  onclick="opentab('Education')">Education</p>
+                        
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>HTML & CSS</span><br>designing web interfaces</li>
+                            <li><span>web development</span><br>website development</li>
+                            
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>UI/UX</span><br>designing web interfaces</li>
+                            <li><span>web development</span><br>web app development</li>
+                            <li><span>app development</span><br>building android apps</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>SCHOOL</span><br>Anand ashram convent school</li>
+                            <li><span>PUC</span><br>Siddartha pu college</li>
+                            <li><span>Engineering</span><br>Srinivas University</li>
+                            
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!---------------------services----------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Html CSS</h2>
+                    <p>I've designed a captivating travel webpage using HTML and CSS. 
+                        Through a harmonious blend of structured HTML elements and stylish CSS, 
+                        I've crafted an engaging platform that beckons wanderlust.</p>
+                         <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Java</h2>
+                    <p>Utilizing Java, I've created a medical management system that optimizes healthcare procedures.
+                         Through Java's versatile capabilities, I've implemented features for seamless patient record management, 
+                        appointment scheduling, and secure storage of medical data.</p>
+                         <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Python,SQL</h2>
+                    <p>I've designed a student information system using Python and SQL, a project that efficiently manages student data.
+                         Through Python's flexibility and SQL's database prowess , 
+                        I've established a platform to input, update, and retrieve student information seamlessly..</p>
+                         <a href="#">Learn more</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-----------------------PORTFOLIO----------------------------->
+    <div>
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My  Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/work-1.png">
+                        <div class="layer">
+                             <h3>Todolist App</h3>
+                             <p>Lorem ipsum dolor sit  eligendi nobis quidem tenetur dignissimos soluta  consequuntur. 
+                                Assumenda neque laudantium commodi facere.</p>
+                                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work-2.png">
+                        <div class="layer">
+                            <h3>blog App</h3>
+                            <p>Lorem ipsum dolor sit  eligendi nobis quidem tenetur dignissimos soluta  consequuntur. 
+                               Assumenda neque laudantium commodi facere.</p>
+                               <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                       </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work-3.png">
+                        <div class="layer">
+                             <h3>online shopping App</h3>
+                             <p>Lorem ipsum dolor sit  eligendi nobis quidem tenetur dignissimos soluta  consequuntur. 
+                                Assumenda neque laudantium commodi facere.</p>
+                                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+<a href="#" class="btn">See more</a>
+            </div>
+        </div>
+    </div>
+    <!--------------------contact------------------------>
+    <div class="container" id="contact">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>vaishnavi@gmail.com</p>
+                <p> <i class="fa-solid fa-phone"></i>234567890</p>
+                <div class="social-icons">
+                    <a href=""> <i class="fa-brands fa-whatsapp"></i>  </a>           <!--here we should add icon link-->
+                    <a href=""> <i class="fa-brands fa-instagram"></i>  </a>     
+                    <a href="">  <i class="fa-brands fa-linkedin"></i> </a>      
+                    <a href="">  <i class="fa-brands fa-github"></i> </a>
+                </div>
+                <a href="https://docs.google.com/document/d/1xi_BrUA0GPjUSIkaAUx95kWybyB16Jgh/edit?usp=sharing&ouid=115658637239161813093&rtpof=true&sd=true" download  class="btn btn2">Download resume</a>
+            </div>
+                <div class="contact-right">
+                    <form>
+                       <input type="text" name="Name" placeholder="your name" required>
+                       <input type="email" name="email" placeholder="your email" required>
+                       <textarea name="message" rows="6" placeholder="your message"></textarea>
+                       <button type="submit" class="btn btn2">submit</button>
+                    </form>                
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright @ portfolio made with <i class="fa-solid fa-heart"></i> by vaishnavi</p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+        
+    </script>
+</body>
+</html>
